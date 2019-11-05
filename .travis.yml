@@ -2,4 +2,4 @@ language: java
 matrix:
   - JOB="./gradlew build"
 script: "$JOB"
-  -./gradlew check
+
