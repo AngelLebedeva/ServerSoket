@@ -1,4 +1,5 @@
 language: java
-script: true
--./gradlew check
-
+matrix:
+  - JOB="./gradlew build"
+script: "$JOB"
+  -./gradlew check
