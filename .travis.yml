@@ -1,5 +1,4 @@
 language: java
-cache:
-  directories:
-    - node_modules
+script: true
+-./gradlew check
 
